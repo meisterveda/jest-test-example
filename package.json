@@ -1,0 +1,19 @@
+{
+  "name": "jest-test-example",
+  "version": "1.0.0",
+  "description": "Testing Example for Jest unit testing.",
+  "main": "test.spec.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meisterveda/jest-test-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meisterveda/jest-test-example/issues"
+  },
+  "homepage": "https://github.com/meisterveda/jest-test-example#readme"
+}
