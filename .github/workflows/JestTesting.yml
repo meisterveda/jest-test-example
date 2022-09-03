@@ -34,4 +34,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: code-test-report
-          path: test
+          path: |
+            test
+            !test/.gitkeep
