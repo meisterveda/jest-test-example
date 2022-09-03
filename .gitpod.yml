@@ -1,0 +1,9 @@
+
+tasks:
+  - init: npm install
+
+
+
+vscode:
+  extensions:
+    - Orta.vscode-jest
