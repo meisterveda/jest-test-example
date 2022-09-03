@@ -34,16 +34,14 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: code-test-report
-          path: |
-            test
-            !test/.gitkeep
+          path: test
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: "test/test-report.html"
+          path: test
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
