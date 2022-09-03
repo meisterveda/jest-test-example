@@ -112,6 +112,7 @@ module.exports = {
       "./node_modules/jest-html-reporter",
       {
         pageTitle: "Test Report",
+        outputPath: "./test/test-report.html",
       },
     ],
   ],
