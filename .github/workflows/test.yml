@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build_test_deploy:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -30,18 +30,3 @@ jobs:
         run: npm ci --legacy-peer-deps
       - name: Jest Testing
         run: npm test
-      - name: Archive code Test results
-        uses: actions/upload-artifact@v3
-        with:
-          name: code-test-report
-          path: test
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          path: test
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
