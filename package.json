@@ -17,6 +17,7 @@
   "homepage": "https://github.com/meisterveda/jest-test-example#readme",
   "devDependencies": {
     "jest": "^29.0.1",
-    "jest-html-reporter": "^3.6.0"
+    "jest-html-reporter": "^3.6.0",
+    "supertest": "^6.2.4"
   }
 }
