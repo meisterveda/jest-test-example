@@ -5,6 +5,6 @@ describe("API Testing examples", () => {
     const response = await request("https://jsonplaceholder.typicode.com").get(
       "/posts"
     );
-    expect(response.statusCode).toBe(400);
+    expect(response.statusCode).toBe(200);
   });
 });
