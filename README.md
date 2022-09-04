@@ -23,11 +23,11 @@ Install jest-test-example with npm
 
 For the project a simple nodeJs was used, along with:
 
-[Jest](jestjs.io)
-[Jest html reporter](https://github.com/Hargne/jest-html-reporter)
-[API Placeholder](https://jsonplaceholder.typicode.com/)
-[Supertest](https://github.com/visionmedia/supertest)
-[Github Actions](https://github.com/features/actions)
+. [Jest](jestjs.io)
+. [Jest html reporter](https://github.com/Hargne/jest-html-reporter)
+. [API Placeholder](https://jsonplaceholder.typicode.com/)
+. [Supertest](https://github.com/visionmedia/supertest)
+. [Github Actions](https://github.com/features/actions)
     
 ## Usage/Examples
 
