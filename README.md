@@ -32,3 +32,5 @@ For the project a simple nodeJs was used, along with:
 ## Usage/Examples
 
 To use this project, just create in the root folder your tests with a .spec.js file extension and add your test cases inside, it will be run by github actions and published to github pages.
+
+Another Usage, Inside of github fork the repo and just edit inside of github the spec.js file, it will trigger github actions to read the file and you can then view the results inside of the repos github pages
